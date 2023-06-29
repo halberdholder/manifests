@@ -3,7 +3,7 @@
   <remote name="leez" fetch="https://github.com/halberdholder"/>
   <default remote="leez" revision="master" sync-j="8"/>
 
-  <project name="device-custom" path="device/rockchip" revision="6408aa80235331d2d83571cf1c2cddb5e03bb301" upstream="master">
+  <project name="device-custom" path="device/rockchip" revision="master">
     <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
     <linkfile dest="build.sh" src="common/build.sh"/>
     <linkfile dest="sdboot.sh" src="common/sdboot.sh"/>
@@ -22,4 +22,5 @@
   </project>
   <project name="kernel" revision="leez-linux-xenomai3.1"/>
   <project name="u-boot" revision="master"/>
+  <project name="mkrootfs" revision="master"/>
 </manifest>
