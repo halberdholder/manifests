@@ -23,4 +23,5 @@
   <project name="kernel" revision="leez-linux-xenomai3.1"/>
   <project name="u-boot" revision="master"/>
   <project name="mkrootfs" revision="master"/>
+  <project name="xenomai-3.1" revision="master"/>
 </manifest>
